@@ -65,7 +65,17 @@ section{
   text-align: left;
   margin-right: 1400px;
 }
-
-.summary + div:nth-child(2) {
-
+footer {
+    background-color: #85d062;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
 }
