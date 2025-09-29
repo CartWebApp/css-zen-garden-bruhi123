@@ -21,9 +21,10 @@ header h1 {
 
 header h2 {
   font-size: 30px;
+  margin-top: 400px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: -60px;
+  margin-bottom: -150px;
+  margin-right: 1400px;
 }
 
 section{
@@ -35,23 +36,36 @@ section{
     background-size: 100% 100%;
 }
 
-.summary + .preamble {
+.preamble {
   width: 500px;
-  margin: 30px auto; 
+  margin: 100px auto; 
   padding: 20px;
   background-color: #d0eeff;
-  border: 2px solid #000;
+  border: 2px solid #000000;
   box-sizing: border-box;
   line-height: 1.6;
+  font-size: 18px;
+  margin-right: 1400px;
+
 }
 
 .summary {
   width: 500px;
+  height: 225px;
   margin: 50px auto;   
   background-color: #d0eeff;
   border: 2px solid #000;
   box-sizing: border-box;
   padding: 20px;
   margin-top: 80px;
-  position: relative;
+  align-items: flex-end;
+  display: flex;
+  font-size: 18px; 
+  line-height: 1.6;
+  text-align: left;
+  margin-right: 1400px;
+}
+
+.summary + div:nth-child(2) {
+
 }
