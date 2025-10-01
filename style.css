@@ -10,11 +10,11 @@ flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+flex-direction: column;
   border: 2px solid #1a8100;
   background-color: #ffffff;
   box-shadow: #000000 5px 5px 5px;
   text-shadow: #000000 0.5px 0.5px 0.5px;
-
   margin-bottom: 30px;
     background-image: url('images/green  Background.png');
     background-repeat: no-repeat;
@@ -24,12 +24,12 @@ align-items: center;
 
 }
 .intro div {
-    width: 40%;
-    background: rgba(255, 255, 255, 0.2);
+  width: 40%;
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 20px;
-  margin: 20px 20px;
+  margin: 50px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
   color: black;
@@ -39,8 +39,7 @@ align-items: center;
 
 }
 .intro header{
-        padding: 10px 0;
-
+    padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -51,31 +50,43 @@ align-items: center;
     background-color: #cefac3;
 }
 .intro header h1{
-    font-size: 2.5em;
+    font-size: 100px;
     margin-right: 20px;
     color: #1a8100;
-    text-shadow: #000000 1px 1px 2px;
+    text-shadow: #000000 3.5px 3.5px 3.5px;
     width: 100%;
     text-align: center;
 }
 .intro header h2{
-    font-size: 1.2em;
-    color: #333333;
-    text-shadow: #000000 0.5px 0.5px 0.5px;
+    font-size: 30px;
+    color: #0a4415;
+    text-shadow: #000000 1px 1px 1px;
     width: 100%;
     text-align: center;
     margin-top: 10px;
     text-align: center;
-
 }
+
+.preamble:hover{
+   transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.summary:hover{
+   transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
 .main{
 display: flex;
 flex-wrap: wrap;
-
 flex-direction: row;
 justify-content: center;
 align-items: center;
-    }
+}
+
 .main div{
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
@@ -102,14 +113,12 @@ align-items: center;
 }
 .main div p:hover{
     transform: scale(1.02);
-    background-color: #000000;
-    color: #ffffff;
     transition: all 0.3s ease-in-out;
     
 }
 footer{
     width: 100%;
-       background-color: #85d062;
+    background-color: #85d062;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -131,38 +140,44 @@ footer a:hover{
     text-decoration: underline;
 }
 
+
+
+.design-selection:hover, .design-archives:hover, .zen-resources:hover{
+  transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
 .design-selection {
-  border: 2px solid #1a8100;
   border-radius: 30px;
   padding: 10px;
   margin: 10px;
   background-color: #ffffff;
-  box-shadow: #000000 5px 5px 5px;
-  text-shadow: #000000 0.5px 0.5px 0.5px;
+  padding: 30px;
 }
 
 .design-archives {
-  border: 2px solid #1a8100;
   border-radius: 30px;
   padding: 10px;
-  
   background-color: #ffffff;
-  box-shadow: #000000 5px 5px 5px;
-  text-shadow: #000000 0.5px 0.5px 0.5px;
+  padding: 30px;
 }
 
 .zen-resources {
-  border: 2px solid #1a8100;
   border-radius: 30px;
   padding: 10px;
   margin: 100px;
   background-color: #ffffff;
-  box-shadow: #000000 5px 5px 5px;
-  text-shadow: #000000 0.5px 0.5px 0.5px;
+  padding: 30px;
 }
 
 .design-selection, .design-archives, .zen-resources {
   display: inline-block;
   justify-content: center;
   align-items: center;
+}
+
+.sidebar{
+  justify-self: center;
 }
