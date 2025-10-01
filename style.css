@@ -21,49 +21,71 @@ header h1 {
 
 header h2 {
   font-size: 30px;
-  margin-top: 400px;
   text-align: center;
-  margin-bottom: -150px;
-  margin-right: 1400px;
+  color: black;
+  margin-left: px;
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px;
+  margin: 100px auto;
+  width: 400px;
+  height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  word-spacing: 1.6px;
+  line-height: 1.6;
 }
 
+
 section{
-    background-image: url('images/istockphoto-108219206-612x612.jg');
+    background-image: url('images/green  Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .preamble {
-  width: 500px;
-  margin: 100px auto; 
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 20px;
-  background-color: #d0eeff;
-  border: 2px solid #000000;
-  box-sizing: border-box;
+  margin: 100px auto;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  word-spacing: 1.6px;
   line-height: 1.6;
-  font-size: 18px;
-  margin-right: 1400px;
-
+  position: relative;
+  right: 300px;
 }
 
 .summary {
-  width: 500px;
-  height: 225px;
-  margin: 50px auto;   
-  background-color: #d0eeff;
-  border: 2px solid #000;
-  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 20px;
-  margin-top: 80px;
-  align-items: flex-end;
-  display: flex;
-  font-size: 18px; 
+  margin: 100px auto;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  word-spacing: 1.6px;
   line-height: 1.6;
-  text-align: left;
-  margin-right: 1400px;
+  position: relative;
+  left: 275px;
 }
 footer {
     background-color: #85d062;
@@ -80,6 +102,25 @@ footer {
     margin-top: 50px;
 }
 
+.explanation {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px;
+  margin: 100px auto;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  word-spacing: 1.6px;
+  line-height: 1.6;
+  position: relative;
+  right: 250px;
+  position: absolute;
+  top: 500px;
+  right: 200px;
+}
 .design-selection {
   border: 2px solid #1a8100;
   border-radius: 30px;
