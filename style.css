@@ -130,3 +130,39 @@ footer a:hover{
     color: #0756ff;
     text-decoration: underline;
 }
+
+.design-selection {
+  border: 2px solid #1a8100;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: #000000 5px 5px 5px;
+  text-shadow: #000000 0.5px 0.5px 0.5px;
+}
+
+.design-archives {
+  border: 2px solid #1a8100;
+  border-radius: 30px;
+  padding: 10px;
+  
+  background-color: #ffffff;
+  box-shadow: #000000 5px 5px 5px;
+  text-shadow: #000000 0.5px 0.5px 0.5px;
+}
+
+.zen-resources {
+  border: 2px solid #1a8100;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 100px;
+  background-color: #ffffff;
+  box-shadow: #000000 5px 5px 5px;
+  text-shadow: #000000 0.5px 0.5px 0.5px;
+}
+
+.design-selection, .design-archives, .zen-resources {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
