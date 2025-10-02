@@ -82,40 +82,44 @@ flex-direction: column;
 .main{
 display: flex;
 flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-direction: column;
+background: url('images/nature.jpg') no-repeat center center fixed;
+background-size: cover;
 }
+ 
 
 .main div{
-    width: 100%;
-    background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  padding: 20px;
-  margin: 20px 20px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   color: black;
   word-spacing: 1.6px;
   line-height: 1.6;
-
 }
 .main div h3{
-    font-size: 1.5em;
+    font-size: 32px;
     color: #1a8100;
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 .main div p {
-    font-size: 1em;
+    font-size: 1.1em;
     color: #333333;
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .main div p:hover{
-    transform: scale(1.02);
     transition: all 0.3s ease-in-out;
-    
 }
+
+#zen-explanation{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin-top: 300px;
+  text-align: start;
+}
+
 footer{
     width: 100%;
     background-color: #85d062;
@@ -151,23 +155,21 @@ footer a:hover{
 
 .design-selection {
   border-radius: 30px;
-  padding: 10px;
-  margin: 10px;
+  margin: 50px;
   background-color: #ffffff;
   padding: 30px;
 }
 
 .design-archives {
   border-radius: 30px;
-  padding: 10px;
+  margin: 50px;
   background-color: #ffffff;
   padding: 30px;
 }
 
 .zen-resources {
   border-radius: 30px;
-  padding: 10px;
-  margin: 100px;
+  margin: 50px;
   background-color: #ffffff;
   padding: 30px;
 }
